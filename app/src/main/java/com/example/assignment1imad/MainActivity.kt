@@ -18,8 +18,21 @@ class MainActivity : AppCompatActivity() {
         val clearButton = findViewById<Button>(R.id.btnClear)
         val textOutput = findViewById<TextView>(R.id.textOutput)
 
-    }
+        // GENERATE BUTTON
+        // THE BUTTON THAT GENERATES THE INFORMATION WITH THE INPUT AND RECIPROCATES IT INTO THE OUTPUT
 
+
+        generateButton?.setOnClickListener {
+
+            //VARIABLE DECLARATION
+
+            var strPerson: String = ""
+            var strHistoryAge: String = ""
+            var intAge: Int
+
+
+        }
+    }
 }
 
 
