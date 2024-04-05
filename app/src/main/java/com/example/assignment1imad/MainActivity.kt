@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             intAge = textAgeInput.text.toString().toInt()
 
             // IF STATEMENT TO CHECK WHETHER THE INTEGER VALUE GIVEN IS WITHIN THE REQUIRED RANGE
+            // HI
 
             if (intAge >= 20 && intAge <= 100) {
 
