@@ -35,6 +35,40 @@ class MainActivity : AppCompatActivity() {
 
             if (intAge >= 20 && intAge <= 100) {
 
+                //PROCESSING OF FINDING A MATCHING INTEGER
+
+                if (intAge == 25) {
+                    strPerson = "Tupac Shakur"
+                    strHistoryAge = "25"
+                } else if (intAge == 35) {
+                    strPerson = "Wolfgang Amadeus Mozart"
+                    strHistoryAge = "35"
+                } else if (intAge == 42) {
+                    strPerson = "Elvis Presley"
+                    strHistoryAge = "42"
+                } else if (intAge == 45) {
+                    strPerson = "Freddy Mercury"
+                    strHistoryAge = "45"
+                } else if (intAge == 51) {
+                    strPerson = "Napoléon Bonaparte"
+                    strHistoryAge = "51"
+                } else if (intAge == 56) {
+                    strPerson = "Abraham Lincoln"
+                    strHistoryAge = "56"
+                } else if (intAge == 67) {
+                    strPerson = "George Washington"
+                    strHistoryAge = "67"
+                } else if (intAge == 73) {
+                    strPerson = "Charles Darwin"
+                    strHistoryAge = "73"
+                } else if (intAge == 83) {
+                    strPerson = "Thomas Jefferson"
+                    strHistoryAge = "83"
+                } else if (intAge == 95) {
+                    strPerson = "Nelson Mandela"
+                    strHistoryAge = "95"
+                }
+
             }else {
 
                 // ERROR MESSAGE OUTPUT FOR THE RANGE CHECK
