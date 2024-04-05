@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //VARIABLE DECLARATION
+
         val textAgeInput = findViewById<EditText>(R.id.edtAgeInput)
         val generateButton = findViewById<Button>(R.id.btnGenerate)
         val clearButton = findViewById<Button>(R.id.btnClear)
