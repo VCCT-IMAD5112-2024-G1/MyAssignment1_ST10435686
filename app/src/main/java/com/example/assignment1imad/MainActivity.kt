@@ -69,6 +69,16 @@ class MainActivity : AppCompatActivity() {
                     strHistoryAge = "95"
                 }
 
+                //THE OUTPUT OF THE FINAL INFORMATION THAT HAS BEEN SELECTED IF THE AGE THAT IS PROVIDED MATCHES WITH ONE OF THE HISTORICAL FIGURES AGES
+
+                textOutput.setText(strPerson + " died at the age of " + strHistoryAge + ". This is the same age which you are currently! They are a famous historical figure.")
+
+                //AN IF STATEMENT THAT DISPLAYS A MESSAGE IF THE AGE DOES NOT MATCH ANY OF THE HISTORICAL FIGURES AGES
+
+                if (intAge != 25 && intAge != 35 && intAge != 42 && intAge != 45 && intAge != 51 && intAge != 56 && intAge != 67 && intAge != 73 && intAge != 83 && intAge != 95) {
+                    textOutput.setText("There are no famous historical figures who share the same age as you do. Please try a different age!")
+                }
+
             }else {
 
                 // ERROR MESSAGE OUTPUT FOR THE RANGE CHECK
