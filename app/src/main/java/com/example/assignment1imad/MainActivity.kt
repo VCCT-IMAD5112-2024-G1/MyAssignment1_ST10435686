@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                     textOutput.setText("There are no famous historical figures who share the same age as you do. Please try a different age!")
                 }
 
-            }else {
+            } else {
 
                 // ERROR MESSAGE OUTPUT FOR THE RANGE CHECK
 
@@ -87,7 +87,13 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+        // CLEAR BUTTON
+        //CLEARS ALL THE INFORMATION IN THE INPUT AND OUTPUT SECTIONS
 
+        clearButton?.setOnClickListener {
+            textAgeInput.setText("")
+            textOutput.setText("")
+        }
     }
 }
 
