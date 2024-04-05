@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         // GENERATE BUTTON
         // THE BUTTON THAT GENERATES THE INFORMATION WITH THE INPUT AND RECIPROCATES IT INTO THE OUTPUT
 
-
         generateButton?.setOnClickListener {
 
             //VARIABLE DECLARATION
@@ -30,8 +29,21 @@ class MainActivity : AppCompatActivity() {
             var strHistoryAge: String = ""
             var intAge: Int
 
+            intAge = textAgeInput.text.toString().toInt()
 
+            // IF STATEMENT TO CHECK WHETHER THE INTEGER VALUE GIVEN IS WITHIN THE REQUIRED RANGE 1
+
+            if (intAge >= 20 && intAge <= 100) {
+
+            }else {
+
+                // ERROR MESSAGE OUTPUT FOR THE RANGE CHECK
+
+                textOutput.setText("Invalid age! Please use an age between 20 and 100!")
+
+            }
         }
+
     }
 }
 
